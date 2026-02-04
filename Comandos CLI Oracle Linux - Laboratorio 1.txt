@@ -23,15 +23,15 @@ date
 Práctica 1.3
 date
 hostname
-useradd Norberto
-passwd Norberto
-usermod -aG wheel Norberto
+useradd Nolberto
+passwd Nolberto
+usermod -aG wheel Nolberto
 groups Nolberto
 groupadd guest
 useradd Nolberto1
 passwd Nolberto1
-usermod -aG guest Norberto1
-groups Norberto1
+usermod -aG guest Nolberto1
+groups Nolberto1
 userdel -r Nolberto1
 groupdel guest
 cat /etc/passwd
