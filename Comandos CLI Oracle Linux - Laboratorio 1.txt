@@ -45,9 +45,9 @@ hostname
 sudo -i
 mkdir materia
 cd materia
-touch estudiante.txt
-vi estudiante.txt
-cat estudiante.txt
+touch estudiantes.txt
+vi estudiantes.txt
+cat estudiantes.txt
 chmod u+rwx estudiantes.txt
 chmod uo-rwx estudiantes.txt
 chmod g+rwx estudiantes.txt
@@ -59,3 +59,4 @@ cd materia2
 ls
 cd
 rm -rf materia
+
