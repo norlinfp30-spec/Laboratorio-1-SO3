@@ -48,15 +48,15 @@ cd materia
 touch estudiantes.txt
 vi estudiantes.txt
 cat estudiantes.txt
-chmod u+rwx estudiantes.txt
-chmod uo-rwx estudiantes.txt
-chmod g+rwx estudiantes.txt
+chmod u=rwx,g=rwx,o= estudiantes.txt
 mkdir materia2
 pwd
-cp /root/materia/estudiante.txt /root/materia2
+cp /home/nolberto/Desktop/materia/estudiante.txt /home/norbelto/Desktop/materia2/estudiante.txt
 clear
 cd materia2
 ls
 cd
 rm -rf materia
+cd ..
+
 
